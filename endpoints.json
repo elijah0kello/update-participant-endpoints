@@ -1,0 +1,104 @@
+{
+  "endpoints":[
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTICIPANT_SUB_ID_PUT",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/participants/{{partyIdType}}/{{partyIdentifier}}/{{partySubIdOrType}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTICIPANT_SUB_ID_PUT_ERROR",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/participants/{{partyIdType}}/{{partyIdentifier}}/{{partySubIdOrType}}/error"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTICIPANT_SUB_ID_DELETE",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/participants/{{partyIdType}}/{{partyIdentifier}}/{{partySubIdOrType}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTIES_SUB_ID_GET",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/parties/{{partyIdType}}/{{partyIdentifier}}/{{partySubIdOrType}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTIES_SUB_ID_PUT",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/parties/{{partyIdType}}/{{partyIdentifier}}/{{partySubIdOrType}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTIES_SUB_ID_PUT_ERROR",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/parties/{{partyIdType}}/{{partyIdentifier}}/{{partySubIdOrType}}/error"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_AUTHORIZATIONS",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTICIPANT_PUT",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/participants/{{partyIdType}}/{{partyIdentifier}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTICIPANT_PUT_ERROR",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/participants/{{partyIdType}}/{{partyIdentifier}}/error"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTICIPANT_BATCH_PUT",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/participants/{{requestId}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTICIPANT_BATCH_PUT_ERROR",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/participants/{{requestId}}/error"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTIES_GET",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/parties/{{partyIdType}}/{{partyIdentifier}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTIES_PUT",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/parties/{{partyIdType}}/{{partyIdentifier}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_PARTIES_PUT_ERROR",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/parties/{{partyIdType}}/{{partyIdentifier}}/error"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_QUOTES",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_TRX_REQ_SERVICE",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_TRANSFER_POST",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/transfers"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_TRANSFER_PUT",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/transfers/{{transferId}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_TRANSFER_ERROR",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/transfers/{{transferId}}/error"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_BULK_TRANSFER_POST",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/bulkTransfers"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_BULK_TRANSFER_PUT",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/bulkTransfers/{{id}}"
+    },
+    {
+      "type": "FSPIOP_CALLBACK_URL_BULK_TRANSFER_ERROR",
+      "value": "https://89cf-74-225-128-181.ngrok-free.app/bulkTransfers/{{id}}/error"
+    },
+    {
+      "type": "NET_DEBIT_CAP_THRESHOLD_BREACH_EMAIL",
+      "value": "some.email@gmail.com"
+    },
+    {
+      "type": "NET_DEBIT_CAP_ADJUSTMENT_EMAIL",
+      "value": "some.email@gmail.com"
+    },
+    {
+      "type": "SETTLEMENT_TRANSFER_POSITION_CHANGE_EMAIL",
+      "value": "some.email@gmail.com"
+    }
+  ]
+}
